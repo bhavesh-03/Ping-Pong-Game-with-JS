@@ -1,0 +1,60 @@
+.container {
+    display :flex
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --hue: 200;
+    --saturation: 50%;
+    --foreground-color: hsl(var(--hue), var(--saturation), 75%);
+    --background-color: hsl(var(--hue), var(--saturation), 20%);
+}
+
+body{
+    background-color: #3C486B
+    
+}
+
+.button{
+    display: flex;
+    justify-content: space-around ;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    margin: 5px;
+}
+
+.btn{
+    background-color:#F9D949;
+    border: black;
+    color: black;
+    padding: 10px 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 13px;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.controls{
+    text-align: center;
+    color: #F45050;
+    font-size: larger;
+    font-weight: bold;
+}
+
+canvas{
+    padding: 0;
+    margin: auto;
+    margin-top: 120px;
+    display: block;
+    width: 800px;
+    background-color: black;
+    border: solid white;
+}

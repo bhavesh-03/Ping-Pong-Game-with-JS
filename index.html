@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ping Pong Game</title>
+        <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" type="module"></script>
+    </head>
+    <body>
+        <div class="container">
+            <canvas id="canvas" width="800" height="400" margin="auto"></canvas>
+        <div class="score">
+            <div id="player-score">0</div>
+            <div id="computer-score">0</div>
+        </div>
+        <div class="ball" id="ball"></div>
+        <div class="paddle left" id="player-paddle"></div>
+        <div class="paddle right" id="computer-paddle"></div>
+        </canvas>
+        </div>
+        <div class="button">
+            <button id="start-btn" class="btn">Start</button>
+            <button id="pause-btn" class="btn">Pause</button>
+            <button id="restart-btn" class="btn">Restart</button>
+         </div>
+         <p class="controls">Control: Player Left( W and S ) | Player Right( ↑ and ↓ )</p>
+    </body>
+</html>
